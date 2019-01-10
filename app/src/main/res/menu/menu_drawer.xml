@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/idItem1"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/idItem2"
+            android:icon="@drawable/ic_action_account"
+            android:title="Account"/>
+        <item
+            android:id="@+id/idItem3"
+            android:icon="@drawable/ic_action_cart"
+            android:title="Cart"/>
+    </group>
+
+
+    <item android:title="Section 2">
+        <menu>
+            <item
+                android:id="@+id/idItem4"
+                android:icon="@drawable/ic_action_home"
+                android:title="Home2"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Section 3">
+        <menu>
+            <item
+                android:id="@+id/idItem5"
+                android:icon="@drawable/ic_action_account"
+                android:title="Account2" />
+        </menu>
+    </item>
+
+</menu>
